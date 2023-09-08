@@ -1,0 +1,168 @@
+body {
+	margin:0px;
+	background-color: #cccccc; 
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+	font-size:12px;
+	color:#000;
+}
+
+.todo {
+	border: 1px solid black;
+	margin:0 auto; /* topo 0 direita automatica */
+	background-color: #FFFFFF;
+}
+
+.topo {
+    padding: 1%;
+    background-color:#990000;
+    font-size: 50px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.meio {
+   	width: 100%;
+	min-height: 850px;
+	background-color:#FFFFFF;
+ }
+
+
+.esquerda {
+	float: left;
+	width: 10%;
+	min-height: 850px;
+    background-color: #990000;
+ }
+
+.menu {
+	width: 150px;
+	height: 400px;
+}
+
+.itemMenu {
+	width: 140px;
+	height: 21px;
+	background-color: #FFFFFF;
+	padding: 3px 0px 0px 10px;
+	border-bottom: 1px solid black;
+}
+
+.conteudo {
+    float: left;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.miolo {
+	float: left;
+	width: calc(100% / 2);
+	min-height: 400px;
+    font-family: "courier";
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.miolo2 {
+	float: left;
+	width: calc(100% / 2);
+	min-height: 400px;
+	font-family: "courier";
+    font-size:30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item_miolo {
+	width: 90%;
+	height: 165px;
+	text-align: center;
+	background-color: #cccccc;
+	margin: 2% 4%;
+    border-style: solid;
+}
+
+.item_miolo img {
+    border: 1px solid #7E9F19;
+    float: left;
+    margin: 1%;
+    padding: 2px;
+    height: 90%;
+}
+
+.item_miolo section article h5 {
+    font-size: medium;
+    color: #000;
+}
+
+a {
+    color: #000;
+}
+
+.item_miolo section article p {
+    font-size: small;
+    color: #000;
+    padding-top: 4%;
+}
+  
+.item_miolo2 {
+	
+	height: 359px;
+	text-align: center;
+	background-color: #cccccc;
+	margin: 2% 4%;
+    border-style: solid;
+}
+
+.item_miolo2 img {
+  border: 1px solid #7E9F19;
+  float: left;
+  margin: 1%;
+  padding: 2px;
+  height: 95%;
+}
+
+.item_miolo2 section article h5 {
+    font-size: larger;
+    color: #000;
+}
+
+.item_miolo2 section article p {
+    font-size: medium;
+    color: #000;
+    padding-top: 5%;
+}
+
+
+.direita {
+	float: left;
+	width: 10%;
+	min-height: 850px;
+    background-color: #990000;
+    font-size: medium;
+    text-align: center;
+}
+
+.item_direita {
+	width: 140px;
+	height: 70px;
+	text-align: center;
+	background-color: #FFFFFF;
+	margin: 4px 5px 4px 5px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.rodape {
+    background-color: #990000;
+    color: #FFFFFF;
+    font-size: medium;
+    text-align: center;
+}
+
+.rodape p {
+    margin-top: 0;
+}
+
