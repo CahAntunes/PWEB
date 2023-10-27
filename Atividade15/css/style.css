@@ -1,0 +1,30 @@
+body{
+    background-color:#68b1e2;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+#formP, h2, h3, #sim, #nao{
+    color:#000000;
+}
+
+#pesq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#envio {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  #envio .botao-envio {
+    margin-left: 10px;
+  }
